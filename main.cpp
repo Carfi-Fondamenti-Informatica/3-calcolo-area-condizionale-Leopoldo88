@@ -7,18 +7,18 @@ float b=0;
 int opzione=0;
 cin>>a>>b>>opzione;
 if(opzione<0||opzione>2){
-cout<<"opzione non valida"<<endL;
+cout<<"opzione non valida"<<endl;
 return 0;
 }
 switch(opzione){
    case 0:
-cout<<(a*b)/2<<endL;
+cout<<(a*b)/2<<endl;
 break;
    case 1:
- cout<<a*a<<endL;
+ cout<<a*a<<endl;
  break;
    case 2:
-  cout<<a*b<<endL;
+  cout<<a*b<<endl;
  break;
  }
  
